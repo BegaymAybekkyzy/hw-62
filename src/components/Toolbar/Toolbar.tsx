@@ -7,7 +7,6 @@ const Toolbar = () => {
       <div className="container header-container">
         <div className="header-logo">
           <a href="#" className="logo"><img src={logo} alt="Sportova спортивные комплексы"/></a>
-          <button className="btn-nav" type="button" id="navBtn"></button>
         </div>
 
         <div className="contacts">

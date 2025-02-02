@@ -1,0 +1,32 @@
+.main-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 22px;
+  margin-bottom: 76px;
+}
+
+.main-column {
+  width: calc(100% - 400px);
+}
+
+.add-column {
+  width: 380px;
+}
+
+.catalog {
+  margin-bottom: 84px;
+}
+
+.catalog-title {
+  font-weight: 700;
+  font-size: 31px;
+  margin: 0 0 16px;
+}
+
+.catalog-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around
+}
