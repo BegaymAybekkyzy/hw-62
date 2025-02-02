@@ -1,0 +1,115 @@
+.header {
+  background: #fff;
+  padding: 30px 0 25px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.btn-nav {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: #fff url(.././../assets/images/ic-burger.svg) center no-repeat;
+  border: 1px solid #dedfe7;
+  display: none;
+}
+
+.contacts {
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: #6e7284;
+  position: relative;
+  padding: 2px 0 2px 66px;
+}
+
+.contacts::before {
+  content: "";
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  border: 1px solid #dedfe7;
+  background: url(.././../assets/images/ic-message.svg) center no-repeat;
+  position: absolute;
+  left: 0;
+  top: 3px;
+
+}
+
+.phone {
+  font-weight: 500;
+  font-size: 25px;
+  color: #36383f;
+  display: block;
+}
+
+.cart {
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  color: #6e7284;
+  text-decoration: none;
+  padding: 8px 17px 8px 46px;
+  border: 1px solid #dedfe7;
+  border-radius: 12px;
+  display: inline-block;
+  background: url(.././../assets/images/ic-cart.svg) left 12px center no-repeat;
+}
+
+.cart b {
+  font-weight: 500;
+}
+
+.cart span {
+  display: block;
+  font-weight: 400;
+  font-size: 11px;
+  color: #a3a6b2;
+}
+
+@media screen and (max-width: 780px) {
+  .header-logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .btn-nav {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo img {
+    width: 220px;
+    height: auto;
+  }
+
+  .contacts {
+    padding-left: 0;
+  }
+
+  .contacts::before {
+    display: none;
+  }
+
+  .cart {
+    padding: 15px 15px 15px 34px;
+    background-position: left 6px center;
+  }
+
+  .cart b,
+  .cart span {
+    display: none;
+  }
+}
