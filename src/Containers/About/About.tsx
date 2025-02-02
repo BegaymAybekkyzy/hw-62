@@ -2,11 +2,27 @@ import AdvantageCart from '../../components/AdvantageCart/AdvantageCart.tsx';
 import BlockList from '../../components/BlockList/BlockList.tsx';
 import './About.css';
 
-const cardAdvantages: string[] = [
-  'Выставочный зал на 450 кв.м',
-  '90% товара в наличии на складе',
-  'Монтаж опытными специалистами',
-  'Отправляем в регионы с оплатой при получении'
+const cardAdvantages = [
+  {
+    text:'Выставочный зал на 450 кв.м',
+    icon: 'ic-advantage-1',
+  },
+
+  {
+    text: '90% товара в наличии на складе',
+    icon: 'ic-advantage-2',
+  },
+
+  {
+    text: 'Монтаж опытными специалистами',
+    icon: 'ic-advantage-3',
+  },
+
+  {
+    text: 'Отправляем в регионы с оплатой при получении',
+    icon: 'ic-advantage-4',
+  },
+
 ];
 
 const About = () => {
@@ -19,10 +35,9 @@ const About = () => {
 
         <div className="company-advantages">
           {cardAdvantages.map((advantage, index) => (
-            <AdvantageCart text={advantage} key={index} index={index + 1}/>
+            <AdvantageCart text={advantage.text} key={index} icon={advantage.icon} />
           ))}
         </div>
-
         <BlockList/>
         <a href="#" className="block-link">Подробнее <span>&#8250;</span></a>
       </div>

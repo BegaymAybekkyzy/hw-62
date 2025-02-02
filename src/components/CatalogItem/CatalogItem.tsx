@@ -3,12 +3,12 @@ import "./CatalogItem.css";
 
 interface Props {
   text: string;
-  index: number;
+  icon: string;
 }
 
-const CatalogItem: React.FC<Props> = ({text, index}) => {
+const CatalogItem: React.FC<Props> = ({text, icon}) => {
   return (
-    <a href="#" className={`catalog-item ic-item-${index}`}>
+    <a href="#" className={`catalog-item ${icon}`}>
       <h5>{text}</h5>
     </a>
   );

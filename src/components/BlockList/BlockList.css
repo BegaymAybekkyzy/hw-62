@@ -14,3 +14,22 @@
   width: 100%;
   height: auto;
 }
+
+.block-list ul {
+  width: 46%;
+  margin: 20px 0 30px;
+}
+
+.block-list li {
+  line-height: 160%;
+  color: #6e7284;
+  margin-bottom: 14px;
+}
+
+.block-list li:last-child {
+  margin: 0;
+}
+
+.block-list li::marker {
+  color: #f04716;
+}

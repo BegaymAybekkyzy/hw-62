@@ -3,12 +3,12 @@ import './AdvantageCart.css';
 
 interface Props {
   text: string;
-  index: number;
+  icon: string;
 }
 
-const AdvantageCart: React.FC<Props> = ({text, index}) => {
+const AdvantageCart: React.FC<Props> = ({text, icon}) => {
   return (
-    <div className={`advantage ic-advantage-${index}`}><span>{text}</span></div>
+    <div className={`advantage ${icon}`}><span>{text}</span></div>
   );
 };
 

@@ -24,15 +24,49 @@ const banners: IBanner[] = [
 
 ];
 
-const catalog: string[] = [
-  'Шведские стенки',
-  'Турники',
-  'Уличные комплексы',
-  'Тяжелая атлетика',
-  'Стойки под штангу',
-  'Единоборства',
-  'Фитнес',
-  'Весь каталог'
+const catalog = [
+  {
+    text: 'Шведские стенки',
+    icon: 'ic-item-1'
+  },
+
+  {
+    text: 'Турники',
+    icon: 'ic-item-2'
+  },
+
+  {
+    text: 'Уличные комплексы',
+    icon: 'ic-item-3'
+  },
+
+  {
+    text: 'Тяжелая атлетика',
+    icon: 'ic-item-4'
+  },
+
+  {
+    text: 'Стойки под штангу',
+    icon: 'ic-item-5'
+  },
+
+
+  {
+    text: 'Единоборства',
+    icon: 'ic-item-6'
+  },
+
+
+  {
+    text: 'Фитнес',
+    icon: 'ic-item-7'
+  },
+
+  {
+    text:  'Весь каталог',
+    icon: 'ic-item-8'
+  },
+
 ];
 
 const Home = () => {
@@ -66,7 +100,7 @@ const Home = () => {
         <h3 className="catalog-title">Каталог товаров</h3>
         <div className="catalog-items">
           {catalog.map((item, index) => (
-            <CatalogItem text={item} key={index} index={index + 1}/>
+            <CatalogItem text={item.text} key={index} icon={item.icon}/>
           ))}
         </div>
       </div>
