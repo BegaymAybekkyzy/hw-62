@@ -1,6 +1,7 @@
 import AdvantageCart from '../../components/AdvantageCart/AdvantageCart.tsx';
 import BlockList from '../../components/BlockList/BlockList.tsx';
 import './About.css';
+import ArrowLink from '../../components/ArrowLink/ArrowLink.tsx';
 
 const cardAdvantages = [
   {
@@ -29,7 +30,7 @@ const About = () => {
   return (
     <>
       <div className="about-company container">
-        <h3 className="block-title">О компании</h3>
+        <h3 className="block-title fw-bold">О компании</h3>
         <p>Компания «Sportova» специализируется на продаже шведских стенок, детских площадок и тренажеров. Мы являемся
           официальными дилерами ведущих производителей шведских стенок и детских площадок.</p>
 
@@ -39,7 +40,7 @@ const About = () => {
           ))}
         </div>
         <BlockList/>
-        <a href="#" className="block-link">Подробнее <span>&#8250;</span></a>
+        <ArrowLink className="block-link" text="Подробнее"/>
       </div>
     </>
   );

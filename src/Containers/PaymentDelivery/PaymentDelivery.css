@@ -1,0 +1,14 @@
+.text-block {
+ margin-top: 20px;
+}
+
+.delivery-payment {
+  display: flex;
+  background: #fff;
+  border-radius: 24px;
+  margin-bottom: 118px;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 85px 80px 100px 50px;
+}

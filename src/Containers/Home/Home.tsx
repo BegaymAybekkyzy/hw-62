@@ -1,7 +1,7 @@
 import { IBanner } from '../../types';
 import Banner from '../../components/Banner/Banner.tsx';
-import './Home.css';
 import CatalogItem from '../../components/CatalogItem/CatalogItem.tsx';
+import './Home.css';
 
 const banners: IBanner[] = [
   {
@@ -50,12 +50,10 @@ const catalog = [
     icon: 'ic-item-5'
   },
 
-
   {
     text: 'Единоборства',
     icon: 'ic-item-6'
   },
-
 
   {
     text: 'Фитнес',
@@ -75,10 +73,10 @@ const Home = () => {
     <>
       <div className="main-block container">
         <div className="main-column">
-          {banners.map((item: IBanner) => {
+          {banners.map((item: IBanner, index) => {
             if (item.type === 'big') {
               return (
-                <Banner title={item.title} description={item.description} type={item.type}/>
+                <Banner key={index} title={item.title} description={item.description} type={item.type}/>
               );
             }
           })}
@@ -87,7 +85,6 @@ const Home = () => {
         <div className="add-column">
           {banners.map((item: IBanner, index) => {
             if (item.type === 'small') {
-              console.log(item.title);
               return (
                 <Banner index={index} title={item.title} description={item.description} type={item.type}/>
               );
