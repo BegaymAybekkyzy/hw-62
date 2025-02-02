@@ -1,0 +1,40 @@
+.about-company {
+  margin-bottom: 52px;
+  position: relative;
+}
+
+.block-title {
+  font-size: 31px;
+  margin: 0 0 25px;
+}
+
+.about-company p {
+  font-size: 18px;
+  line-height: 133%;
+  width: 70%;
+  margin: 0 0 15px 0;
+}
+
+.block-link span {
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+.company-advantages {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.block-link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 106%;
+  color: #0a4ecb;
+  position: absolute;
+  right: 19px;
+  top: 107px;
+  text-decoration: none;
+}

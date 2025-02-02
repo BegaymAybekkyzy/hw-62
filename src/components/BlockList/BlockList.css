@@ -1,0 +1,16 @@
+.block-list {
+  background: #fff;
+  border-radius: 12px;
+  display: flex;
+  padding: 9px 17px 0 10px;
+  justify-content: space-between;
+}
+
+.block-img {
+  width: 50%;
+}
+
+.block-img img {
+  width: 100%;
+  height: auto;
+}

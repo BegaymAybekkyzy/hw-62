@@ -1,0 +1,18 @@
+.list{
+  width: 46%;
+  margin: 20px 0 30px;
+}
+
+.list li{
+  line-height: 160%;
+  color: #6e7284;
+  margin-bottom: 14px;
+}
+
+.list li:last-child {
+  margin: 0;
+}
+
+.list li::marker {
+  color: #f04716;
+}
