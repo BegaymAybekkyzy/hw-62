@@ -1,6 +1,6 @@
 import React from "react";
 import "./Banner.css";
-import ArrowLink from "../ArrowLink/ArrowLink.tsx";
+import ArrowLink from "../UI/ArrowLink/ArrowLink.tsx";
 
 interface Props {
   title: string;

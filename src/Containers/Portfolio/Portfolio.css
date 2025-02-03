@@ -1,0 +1,44 @@
+.portfolio-container {
+  display: grid;
+  grid-template-columns: 200px 30%;
+  gap: 20%;
+}
+
+.info-block h2 {
+  text-align: center;
+}
+
+.portfolio-photo {
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 10%;
+}
+
+.portfolio-photo img {
+  display: block;
+  width: 100%;
+}
+
+.info-list {
+  border-spacing: 5px;
+}
+
+.work-list {
+  list-style: none;
+  padding: 0;
+}
+
+.work-list li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}
+
+.work-list a {
+  text-decoration: none;
+  color: #404349;
+}
+
+.work-list a:hover {
+  color: #0011cc;
+}

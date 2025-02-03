@@ -1,0 +1,19 @@
+.burger-main-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+
+.ingredient-block {
+  display: grid;
+  grid-template-columns: 320px 320px;
+}
+
+.burger-block {
+  text-align: center;
+}
+
+.burger-block h2 {
+  margin-bottom: 50px;
+}

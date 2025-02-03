@@ -1,7 +1,7 @@
 import AdvantageCart from "../../components/AdvantageCart/AdvantageCart.tsx";
 import BlockList from "../../components/BlockList/BlockList.tsx";
 import "./About.css";
-import ArrowLink from "../../components/ArrowLink/ArrowLink.tsx";
+import ArrowLink from "../../components/UI/ArrowLink/ArrowLink.tsx";
 
 const cardAdvantages = [
   {
