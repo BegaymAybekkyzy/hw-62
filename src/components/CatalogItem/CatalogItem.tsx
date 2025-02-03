@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import "./CatalogItem.css";
 
 interface Props {
@@ -6,7 +6,7 @@ interface Props {
   icon: string;
 }
 
-const CatalogItem: React.FC<Props> = ({text, icon}) => {
+const CatalogItem: React.FC<Props> = ({ text, icon }) => {
   return (
     <a href="#" className={`catalog-item ${icon}`}>
       <h5>{text}</h5>

@@ -23,9 +23,9 @@
 .company-advantages {
   display: flex;
   gap: 20px;
-  margin-bottom: 20px;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin: 50px 0;
 }
 
 .block-link {

@@ -15,7 +15,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0 0 18px;
-
 }
 
 .banner-big p {
@@ -66,7 +65,7 @@
   max-width: 190px;
 }
 
- .link-arrow {
+.link-arrow {
   margin-top: auto;
   text-decoration: none;
   font-weight: 500;
@@ -78,4 +77,3 @@
 .banner-small .link-arrow span {
   font-size: 17px;
 }
-

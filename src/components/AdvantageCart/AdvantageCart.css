@@ -25,17 +25,21 @@
 }
 
 .ic-advantage-1::before {
-  background: url(../../assets/images/advantages-ic.png) no-repeat center left -6px;
+  background: url(../../assets/images/advantages-ic.png) no-repeat center
+    left -6px;
 }
 
 .ic-advantage-2::before {
-  background: url(../../assets/images/advantages-ic.png) no-repeat center left -79px;
+  background: url(../../assets/images/advantages-ic.png) no-repeat center
+    left -79px;
 }
 
 .ic-advantage-3::before {
-  background: url(../../assets/images/advantages-ic.png) no-repeat center right -91px;
+  background: url(../../assets/images/advantages-ic.png) no-repeat center
+    right -91px;
 }
 
 .ic-advantage-4::before {
-  background: url(../../assets/images/advantages-ic.png) no-repeat center right -10px;
+  background: url(../../assets/images/advantages-ic.png) no-repeat center
+    right -10px;
 }

@@ -1,0 +1,29 @@
+.main-nav {
+  background: #0a4ecb;
+  margin-bottom: 50px;
+}
+
+.nav-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 17px;
+  padding-bottom: 18px;
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  margin-right: 99px;
+}
+
+.nav-list a {
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-list .active {
+  color: #fffa2f;
+  text-decoration: underline;
+}

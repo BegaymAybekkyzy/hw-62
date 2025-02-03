@@ -24,35 +24,43 @@
 }
 
 .ic-item-1::before {
-  background: url(../../assets/images/icons-catalog.png) no-repeat right -255px top -65px;
+  background: url(../../assets/images/icons-catalog.png) no-repeat right -255px
+    top -65px;
 }
 
 .ic-item-2::before {
-  background: url(../../assets/images/icons-catalog.png) no-repeat left -116px top -65px;
+  background: url(../../assets/images/icons-catalog.png) no-repeat left -116px
+    top -65px;
 }
 
 .ic-item-3::before {
-  background: url(../../assets/images/icons-catalog.png) no-repeat right -105px top -65px;
+  background: url(../../assets/images/icons-catalog.png) no-repeat right -105px
+    top -65px;
 }
 
 .ic-item-4::before {
-  background: url(../../assets/images/icons-catalog.png) no-repeat left -250px top -65px;
+  background: url(../../assets/images/icons-catalog.png) no-repeat left -250px
+    top -65px;
 }
 
 .ic-item-5::before {
-  background: url(../../assets/images/icons-catalog.png) no-repeat left -118px bottom -145px;
+  background: url(../../assets/images/icons-catalog.png) no-repeat left -118px
+    bottom -145px;
 }
 
 .ic-item-6::before {
-  background: url(../../assets/images/icons-catalog.png) no-repeat left -250px bottom -145px;
+  background: url(../../assets/images/icons-catalog.png) no-repeat left -250px
+    bottom -145px;
 }
 
 .ic-item-7::before {
-  background: url(../../assets/images/icons-catalog.png) no-repeat right -253px bottom -145px;
+  background: url(../../assets/images/icons-catalog.png) no-repeat right -253px
+    bottom -145px;
 }
 
 .ic-item-8::before {
-  background: url(../../assets/images/icons-catalog.png) no-repeat right -102px bottom -145px;
+  background: url(../../assets/images/icons-catalog.png) no-repeat right -102px
+    bottom -145px;
 }
 
 .catalog-item:hover {
@@ -60,33 +68,41 @@
 }
 
 .ic-item-1:hover::before {
-  background: url(../../assets/images/icons-catalog.png) no-repeat right -255px top -207px;
+  background: url(../../assets/images/icons-catalog.png) no-repeat right -255px
+    top -207px;
 }
 
 .ic-item-2:hover::before {
-  background: url(../../assets/images/icons-catalog.png) no-repeat left -116px top -207px;
+  background: url(../../assets/images/icons-catalog.png) no-repeat left -116px
+    top -207px;
 }
 
 .ic-item-3:hover::before {
-  background: url(../../assets/images/icons-catalog.png) no-repeat right -105px top -207px;
+  background: url(../../assets/images/icons-catalog.png) no-repeat right -105px
+    top -207px;
 }
 
 .ic-item-4:hover::before {
-  background: url(../../assets/images/icons-catalog.png) no-repeat left -250px top -207px;
+  background: url(../../assets/images/icons-catalog.png) no-repeat left -250px
+    top -207px;
 }
 
 .ic-item-5:hover::before {
-  background: url(../../assets/images/icons-catalog.png) no-repeat left -118px bottom -31px;
+  background: url(../../assets/images/icons-catalog.png) no-repeat left -118px
+    bottom -31px;
 }
 
 .ic-item-6:hover::before {
-  background: url(../../assets/images/icons-catalog.png) no-repeat left -250px bottom -31px;
+  background: url(../../assets/images/icons-catalog.png) no-repeat left -250px
+    bottom -31px;
 }
 
 .ic-item-7:hover::before {
-  background: url(../../assets/images/icons-catalog.png) no-repeat right -253px bottom -31px;
+  background: url(../../assets/images/icons-catalog.png) no-repeat right -253px
+    bottom -31px;
 }
 
 .ic-item-8:hover::before {
-  background: url(../../assets/images/icons-catalog.png) no-repeat right -102px bottom -31px;
+  background: url(../../assets/images/icons-catalog.png) no-repeat right -102px
+    bottom -31px;
 }

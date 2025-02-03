@@ -1,5 +1,5 @@
 .text-block {
- margin-top: 20px;
+  margin-top: 20px;
 }
 
 .delivery-payment {
@@ -11,4 +11,27 @@
   gap: 20px;
   flex-wrap: wrap;
   padding: 85px 80px 100px 50px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.section h3 {
+  font-size: 31px;
+  color: #1d1e22;
+  margin: 0 0 18px;
+}
+
+.section p {
+  line-height: 160%;
+  margin: 0 0 16px;
+}
+
+.section-link {
+  color: #4788ff;
+  text-decoration: none;
+  margin-top: auto;
 }

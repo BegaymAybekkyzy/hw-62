@@ -1,12 +1,15 @@
-import './Toolbar.css';
-import logo from '../../assets/images/logo.svg';
+import "./Toolbar.css";
+import logo from "../../assets/images/logo.svg";
+import { NavLink } from "react-router-dom";
 
 const Toolbar = () => {
   return (
     <header className="header">
       <div className="container header-container">
         <div className="header-logo">
-          <a href="#" className="logo"><img src={logo} alt="Sportova спортивные комплексы"/></a>
+          <NavLink to="/" className="logo">
+            <img src={logo} alt="Sportova спортивные комплексы" />
+          </NavLink>
         </div>
 
         <div className="contacts">
