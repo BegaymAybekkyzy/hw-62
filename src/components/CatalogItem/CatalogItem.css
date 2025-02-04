@@ -19,8 +19,7 @@
   width: 119px;
   height: 119px;
   display: block;
-  margin: 0 auto;
-  margin-bottom: 11px;
+  margin: 0 auto 11px;
 }
 
 .ic-item-1::before {

@@ -13,16 +13,6 @@
 .logo {
   text-decoration: none;
 }
-
-.btn-nav {
-  width: 40px;
-  height: 40px;
-  border-radius: 12px;
-  background: #fff url(.././../assets/images/ic-burger.svg) center no-repeat;
-  border: 1px solid #dedfe7;
-  display: none;
-}
-
 .contacts {
   font-size: 12px;
   letter-spacing: 0.04em;

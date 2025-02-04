@@ -6,8 +6,8 @@ import Ingredient from "./components/Ingredient/Ingredient";
 import Burger from "./components/Burger/Burger";
 import Price from "./components/Price/Price";
 import { IIngredientInfo, IIngredientQuantity } from "../../../types";
-import "./BurgerConstructor.css";
 import { useState } from "react";
+import "./BurgerConstructor.css";
 
 const BurgerConstructor = () => {
   const [ingredients, setIngredients] = useState<IIngredientQuantity[]>([
